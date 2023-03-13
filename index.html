@@ -15,7 +15,7 @@
 <header id="navbar">
     <nav class="navbar-container container">
         <a onclick="showHome()" class="home-link">
-            <div onclick="showHome()" class="navbar-logo"></div>
+            <img onclick="showHome()" src="assets/school_software_1.png" alt="" class="navbar-logo">
             Student Management
         </a>
         <button type="button" id="navbar-toggle" aria-controls="navbar-menu" aria-label="Toggle menu"
@@ -43,30 +43,36 @@
 
 
 <div id="form" class="formposition">
+    <form class="form">
     <div class="mb-3">
-        <label for="exampleInput" class="form-label">Student Id</label>
-        <input type="text" class="form-control" id="exampleInput" aria-describedby="emailHelp">
+        <label  class="form-label">Student Id</label>
+        <input type="text" class="form-control" id="st-id" placeholder="Enter Id">
     </div>
         <br>
 
         <div class="mb-3">
-            <label for="exampleInput2" class="form-label">Student Name</label>
-            <input type="text" class="form-control" id="exampleInput2">
+            <label  class="form-label">Student Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter Name">
         </div>
         <br>
         <div class="mb-3">
-            <label for="exampleInput3" class="form-label">Student Address</label>
-            <input type="text" class="form-control" id="exampleInput3">
+            <label class="form-label">Student Address</label>
+            <input type="text" class="form-control" id="address" placeholder="Enter Address">
         </div>
 
 
         <br>
         <div class="mb-3">
-            <label for="exampleInput4" class="form-label">Student Salary</label>
-            <input type="text" class="form-control" id="exampleInput4">
+            <label class="form-label">Student Salary</label>
+            <input type="text" class="form-control" id="salary" placeholder="Enter Salary">
         </div>
-        <button type="submit" class="btn btn-primary">Save Student</button>
+    </form>
+    <button onclick="saveData()" type="submit" class="btn btn-primary" id="saveStudent">Save Student</button>
 
+    <br><br>
+    <div id="response">
+
+    </div>
     </div>
 
     <div id="table" class="loadall">
@@ -94,6 +100,8 @@
 
 
     </div>
+
+
 
 
 

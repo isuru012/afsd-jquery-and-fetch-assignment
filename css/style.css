@@ -1,6 +1,6 @@
 :root {
     --navbar-bg-color: hsl(110, 37%, 51%);
-    --navbar-text-color: hsl(0, 0%, 85%);
+    --navbar-text-color: hsl(0, 0%, 100%);
     --navbar-text-color-focus: rgb(255, 255, 255);
     --navbar-bg-contrast: hsl(154, 93%, 5%);
   }
@@ -48,6 +48,7 @@
     text-decoration: none;
     display: flex;
     font-weight: 400;
+    font-size: 1.2em;
     align-items: center;
   }
   
@@ -69,8 +70,8 @@
   .navbar-logo {
     background-color: rgb(5, 61, 40);
     border-radius: 50%;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     margin-right: 0.5em;
   }
   #navbar-toggle {
