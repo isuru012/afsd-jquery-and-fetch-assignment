@@ -1,0 +1,21 @@
+.formposition{
+    position: relative;
+    top: 100px;
+}
+
+.welcome{
+    position: relative;
+    text-align: center;
+    top: 100px;
+    left: 30px;
+}
+.img-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#table{
+    position: relative;
+    top: 100px;
+}
